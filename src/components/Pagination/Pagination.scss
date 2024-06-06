@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 50px !important;
+  li {
+    font-size: 20px;
+    border: 2px solid #fe1e1e;
+    background-color: transparent;
+    color: #fe1e1e;
+    padding: 5px 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.2s ease 0s;
+    &.active {
+      background-color: #fe1e1e;
+      border-color: #fe1e1e;
+      color: #fff;
+    }
+    &:hover {
+      background-color: #fe1e1e;
+      color: #fff;
+    }
+    &:active {
+      background-color: #d81b1b;
+      border-color: #d81b1b;
+    }
+  }
+}

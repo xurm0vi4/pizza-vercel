@@ -1,0 +1,65 @@
+.pizza {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 400px;
+}
+.img {
+  object-fit: contain;
+  height: 250px;
+}
+.pizza__title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+.pizza__top {
+  text-decoration: none;
+  color: #000;
+}
+.pizza__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    font-size: 20px;
+    font-weight: 700;
+    span{
+      text-decoration: underline;
+    }
+  }
+  button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #fe1e1e;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #fe1e1e;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    svg {
+      path {
+        transition: all 0.2s ease 0s;
+      }
+    }
+    &:hover {
+      background-color: #fe1e1e;
+      color: #fff;
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+    &:active {
+      background-color: #dc0000;
+    }
+  }
+}

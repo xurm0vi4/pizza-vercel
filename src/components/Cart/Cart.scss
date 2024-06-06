@@ -1,0 +1,32 @@
+.cart {
+}
+.cart__button {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #fe1e1e;
+  padding: 15px 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  &:hover {
+    background-color: #ff0505;
+  }
+  &:active {
+    background-color: #d20000;
+  }
+}
+.cart__count {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  span {
+    line-height: 1;
+  }
+}

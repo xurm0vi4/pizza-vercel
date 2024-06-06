@@ -1,0 +1,36 @@
+.sort {
+  position: relative;
+}
+.sort__label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  span {
+    color: #fe1e1e;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+}
+.sort__popup {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
+  padding: 12px 0;
+  background-color: #fff;
+  &-list {
+    li {
+      cursor: pointer;
+      padding: 10px 20px;
+      &.active {
+        background-color: rgba($color: #fe1e1e, $alpha: 0.1);
+      }
+
+      &:hover {
+        background-color: rgba($color: #fe1e1e, $alpha: 0.2);
+      }
+    }
+  }
+}

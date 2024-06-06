@@ -1,0 +1,21 @@
+.content__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.content__main{
+  &-error{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+  }
+}
+.content__pizzas {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
