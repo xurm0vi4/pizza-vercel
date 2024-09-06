@@ -1,4 +1,4 @@
-# Pizza delivery
+# Pizza app
 Project for skills demonstration.
 
 ## Run guide
